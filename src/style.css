@@ -134,7 +134,7 @@ ul {
    .btn:hover, 
    .btn:active, 
    .btn:focus {
-       border-color: var(--color-primary);
-       background-color: var(--color-primary);
-       color: #fff;
+    border-color: var(--color-primary);
+    background-color: var(--color-primary);
+    color: #fff;
    }
