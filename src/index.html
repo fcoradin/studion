@@ -10,6 +10,7 @@
 
 <body>
     <nav class="navbar">
+    <div class="container navbar__container">
         <h1 class="logo-studion">
             Studi<span class="copy--primary">on</span>
             <span class='logo-studion_subtitle'>Eventos</span>
@@ -41,6 +42,7 @@
                 </a>
             </Li>
         </ul>
+    </div>
     </nav>
 
     <header>
@@ -61,26 +63,38 @@
     </header>
 
     <main>
-        <section">
-            <ul>
+        <section id="counter">
+            <ul class="container counter__container">
                 <li>
-                    <h3>+ de 500 </h3>
+                    <h3>
+                    + de 500 
+                    <small>
                     eventos realizados
+                    </small>
+                    </h3>
                 </li>
                 <li>
-                    <h3>+ de 1.000.000 </h3>
+                    <h3>
+                    + de 1.000.000
+                    <small>
                     de ingressos vendidos
+                    </small>
+                    </h3>
                 </li>
                 <li>
-                    <h3>+ de 300 </h3>
+                    <h3>
+                    + de 300
+                    <small>
                     empresas atendidas
+                    </small>
+                    </h3>
                 </li>
             </ul>
             </section>
 
-            <section>
-                <div>
-                    <img src="./imnages/institutional.jpg" />
+            <section class="container institutional">
+                <img class="institutional__image" src="./imnages/institutional.jpg" alt="studion institutional" />
+                <div class="institutional__copy">
                     <h6>Fazemos seu evento acontecer</h6>
                     <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h4>
                     <p>
@@ -88,7 +102,7 @@
                         labore inventore. Facilis, quos beatae, dolore facere ut quae quam nihil neque explicabo
                         architecto, praesentium iusto.
                     </p>
-                    <button>Saiba Mais</button>
+                    <button class="btn btn--institutional">Saiba Mais</button>
                 </div>
             </section>
 
